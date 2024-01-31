@@ -28,7 +28,7 @@ const fetchData = async () => {
     // Handle the API response
     console.log(response.data);
     console.log(response.data.token);
-    console.log(response.data.user.id);
+    //console.log(response.data.user.id);
     if(response.data.token){
         isLogin.value = true
     }
